@@ -1,0 +1,48 @@
+body {
+    background: #0e003f;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    font-family: 'Kanit', sans-serif;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    font-family: 'Kanit', sans-serif;
+    padding: 10px 40px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
